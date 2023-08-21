@@ -1,3 +1,5 @@
 https://fastapidozero.dunossauro.com/
 
 https://www.alura.com.br/artigos/como-criar-apis-python-usando-fastapi
+
+https://youtu.be/9vRpj0RbkBg
