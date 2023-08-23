@@ -1,0 +1,41 @@
+## Qual é a função de uma API?
+
+A função
+ de uma API (Interface de Programação de Aplicativos) é permitir a 
+comunicação e interação entre diferentes sistemas, aplicativos e 
+serviços. Ela define um conjunto de regras e protocolos que especificam 
+como os componentes de software devem interagir uns com os outros.
+
+Uma API atua como um intermediário, ao fornecer métodos, funções e 
+endpoints que possibilitam acessar e utilizar os recursos e 
+funcionalidades de um sistema de forma controlada.
+
+Por meio de uma API, torna-se possível enviar solicitações, obter respostas, compartilhar dados e realizar operações específicas.
+
+## **Diferença de API X Biblioteca X Framework**
+
+### Biblioteca
+
+Uma biblioteca é um conjunto de código pré-escrito que oferece funções e recursos 
+específicos para facilitar o desenvolvimento de software.
+
+Ela contém uma série de módulos ou classes que são utilizados em um programa
+ para realizar tarefas específicas, como manipulação de arquivos, 
+processamento de dados, acesso a bancos de dados, entre outros.
+
+As bibliotecas são geralmente desenvolvidas em uma determinada linguagem 
+de programação e podem ser reutilizadas em diferentes projetos.
+
+São mais simples e correspondem a um conjunto padronizado de códigos, e não
+ de uma parte funcional específica de uma aplicação (como uma API).
+
+### Framework
+
+Um framework é um conjunto estruturado de bibliotecas, padrões e 
+diretrizes que fornecem uma base para o desenvolvimento de software.
+
+Ele define uma estrutura de trabalho comum que facilita o desenvolvimento 
+de aplicativos, fornecendo um conjunto de funcionalidades e abstrações 
+que são usadas para criar aplicativos de forma mais eficiente.
+
+É diferente, pois combina diversas funções em uma estrutura maior.
