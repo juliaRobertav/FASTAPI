@@ -1,0 +1,18 @@
+API-LIVROS
+
+API KEY:
+
+NOME: livro
+
+AIzaSyB0xZUK8Zaag-Mf-_0Q_h8Y2Y9QH_FcjtI
+
+
+URL:
+
+https://www.googleapis.com/books/v1/volumes?q=search-terms&key=your-API-key
+
+
+link dicas:
+
+https://rachelaemmer.medium.com/how-to-use-the-google-books-api-in-your-application-17a0ed7fa857
+
