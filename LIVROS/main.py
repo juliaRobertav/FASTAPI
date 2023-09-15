@@ -1,15 +1,14 @@
 from fastapi import FastAPI, HTTPException, status, Response 
 from models import Livro
 import requests
-# import json
+import json
 # from fastapi.responses import JSONResponse
 
 app = FastAPI()
 
-GOODREADS_URL = "https://www.goodreads.com/search/index"
-
-response = requests.request("GET", GOODREADS_URL)
-print(response.text)
+# PROXIES_BOSCH = {
+#     'http' : 'http://ct67ca:25INDUSTRIAconectada@proxy.br.bosch.com:8080',
+# }
 
 livros = {
     1: {
@@ -80,7 +79,15 @@ async def delete_livro(livro_id: int):
     else:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=f"Não existe um curso com ID {livro_id}")
 
+@app.get('/external/livros')
+async def get_livros():
+    request = requests.get("https://api.kanye.rest")
+    response = request.json()
+    return response
+
+
+    
     
 if __name__ == '__main__':
     import uvicorn
-    uvicorn.run("main:app", host='127.0.0.1', port=8000, reload=True)
+    uvicorn.run("main:app", host='0.0.0.0', port=8000, reload=True)
