@@ -2,13 +2,9 @@ from fastapi import FastAPI, HTTPException, status, Response
 from models import Livro
 import requests
 import json
-# from fastapi.responses import JSONResponse
 
 app = FastAPI()
 
-# PROXIES_BOSCH = {
-#     'http' : 'http://ct67ca:25INDUSTRIAconectada@proxy.br.bosch.com:8080',
-# }
 
 livros = {
     1: {
@@ -74,14 +70,13 @@ async def put_livro(livro_id: int, livro:Livro):
 async def delete_livro(livro_id: int):
     if livro_id in livros:
         del livros[livro_id]
-        # return JSONResponse(status_code=status.HTTP_204_NO_CONTENT)
         return Response(status_code=status.HTTP_204_NO_CONTENT)
     else:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=f"Não existe um curso com ID {livro_id}")
 
-@app.get('/external/livros')
+@app.get('/api/livros')
 async def get_livros():
-    request = requests.get("https://api.kanye.rest")
+    request = requests.get("https://www.googleapis.com/books/v1/volumes?q=search-terms&key=AIzaSyB0xZUK8Zaag-Mf-_0Q_h8Y2Y9QH_FcjtI")
     response = request.json()
     return response
 
