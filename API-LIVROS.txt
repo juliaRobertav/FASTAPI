@@ -16,3 +16,4 @@ link dicas:
 
 https://rachelaemmer.medium.com/how-to-use-the-google-books-api-in-your-application-17a0ed7fa857
 
+https://developers.google.com/books/docs/v1/using?hl=pt-br#APIKey
