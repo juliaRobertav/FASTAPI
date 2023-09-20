@@ -76,7 +76,7 @@ async def delete_livro(livro_id: int):
 
 @app.get('/api/livros')
 async def get_livros():
-    request = requests.get("https://www.googleapis.com/books/v1/volumes?q=search-terms&key=AIzaSyB0xZUK8Zaag-Mf-_0Q_h8Y2Y9QH_FcjtI")
+    request = requests.get("https://poetrydb.org/title/Ozymandias/lines.json")
     response = request.json()
     return response
 
