@@ -33,6 +33,9 @@ livros = {
     } 
 }
 
+@app.get('/')
+async def minha_api():
+    return livros
 
 @app.get('/livros')
 async def get_livros():
@@ -50,10 +53,22 @@ async def get_livro(livro_id: int ):
 
 @app.post('/livros', status_code=status.HTTP_201_CREATED)
 async def post_livro(livro: Livro):
+    # next_id: int = len(livros) + 1
+    # if next_id not in livros:
+    #     livro.id = next_id
+    #     livros[next_id] = livro
+    #     return livro
+    # else:
+    #      raise HTTPException(status_code=status.HTTP_409_CONFLICT, detail=f"Ja existe o livro com id {livro.id}")
+    
     next_id: int = len(livros) + 1
-    livros[next_id] = livro
-    del livro.id
-    return livro
+    if next_id not in livros:
+        livros[next_id] = livro
+        del livro.id
+        return livro
+    else:
+        raise HTTPException(status_code=status.HTTP_409_CONFLICT, detail=f"Ja existe o livro com id {livro.id}")
+    
 
 
 @app.put('/livros/{livro_id}')
@@ -86,4 +101,4 @@ async def get_livros():
     
 if __name__ == '__main__':
     import uvicorn
-    uvicorn.run("main:app", host='0.0.0.0', port=8000, reload=True)
+    uvicorn.run("main:app", host='10.234.94.202', port=8080, reload=True)
