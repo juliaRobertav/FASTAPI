@@ -1,5 +1,5 @@
 # FASTAPI
 
-### Para ver minhas anotações no Notion:
+### Caso queira entender melhor!
 
-https://jurovgui.notion.site/Conceitos-151dca058f5247219cf9131262561543
+https://jurovgui.notion.site/API-79cab7cef19a4d5d93e4ed4a6772626a?pvs=4
