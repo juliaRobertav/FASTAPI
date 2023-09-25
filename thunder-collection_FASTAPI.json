@@ -1,0 +1,97 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "FASTAPI",
+    "dateExported": "2023-09-15T14:17:23.021Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "86ee33c0-9272-4435-8f14-d02c77e863e1",
+            "name": "Livros",
+            "containerId": "",
+            "created": "2023-09-13T13:31:00.733Z",
+            "sortNum": 10000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "55a99399-0860-4171-823b-38684d5cfe5c",
+            "colId": "fe410348-8a85-46ac-b53c-71b956851671",
+            "containerId": "86ee33c0-9272-4435-8f14-d02c77e863e1",
+            "name": "GET Livros",
+            "url": "http://127.0.0.1:8000/livros",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-09-13T13:31:19.598Z",
+            "modified": "2023-09-13T13:31:47.481Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "3da8dec2-cdb5-401a-8486-41a1ea710d92",
+            "colId": "fe410348-8a85-46ac-b53c-71b956851671",
+            "containerId": "86ee33c0-9272-4435-8f14-d02c77e863e1",
+            "name": "POST Livros ",
+            "url": "http://127.0.0.1:8000/livros",
+            "method": "POST",
+            "sortNum": 15000,
+            "created": "2023-09-13T14:18:09.538Z",
+            "modified": "2023-09-14T14:06:40.523Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\":7,\n  \"nome\": \"teste\",\n  \"genero\":\"romance\",\n  \"autor\":\"lisa\",\n  \"editora\":\"intriseca\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "6e2f0f8c-f4f4-4459-94d8-f0da4eea6a72",
+            "colId": "fe410348-8a85-46ac-b53c-71b956851671",
+            "containerId": "86ee33c0-9272-4435-8f14-d02c77e863e1",
+            "name": "GET Livro",
+            "url": "http://127.0.0.1:8000/livros/2",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-09-13T13:31:28.532Z",
+            "modified": "2023-09-13T14:07:48.532Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "2a808ea0-59d9-4a88-8a55-3d5ca633a1e8",
+            "colId": "fe410348-8a85-46ac-b53c-71b956851671",
+            "containerId": "86ee33c0-9272-4435-8f14-d02c77e863e1",
+            "name": "PUT Livro",
+            "url": "http://127.0.0.1:8000/livros/2",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2023-09-14T11:38:07.289Z",
+            "modified": "2023-09-14T11:48:23.886Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nome\":\"Coraline2\",\n  \"genero\":\"terror\",\n  \"autor\":\"Neil Gaiman\",\n  \"editora\":\"Intriseca\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "bbc9048f-74d1-460a-9862-b4f4af02c67c",
+            "colId": "fe410348-8a85-46ac-b53c-71b956851671",
+            "containerId": "86ee33c0-9272-4435-8f14-d02c77e863e1",
+            "name": "DELETE Livro ",
+            "url": "http://127.0.0.1:8000/livros/1",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2023-09-14T11:57:42.372Z",
+            "modified": "2023-09-14T12:02:24.650Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
