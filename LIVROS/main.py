@@ -49,11 +49,11 @@ async def get_nome(livro_nomes: str):
     
     
 #método get para livro específico
-@app.get('/livros/{livro_id}')
-async def get_livro(livro_id: str ):
+@app.get('/livros_id/{livro_id}')
+async def get_livro(livro_id: int ):
     try:
         livro = livros[livro_id]
-        #livro.update({"id": livro_id})
+        livro.update({"id": livro_id})
         return livro
     except KeyError:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Não foi possível encontrar este livro.")
@@ -106,7 +106,7 @@ async def get_biblioteca():
     request_series = requests.get('http://10.234.92.19:8000')
     series = json.loads(request_series.content)
     
-    request_filmes = requests.get('http://10.21.59.33:8000')
+    request_filmes = requests.get('http://10.234.91.236:8000')
     filmes = json.loads(request_filmes.content)
     return livros, series, filmes
     
