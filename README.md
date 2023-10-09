@@ -5,4 +5,4 @@
 https://jurovgui.notion.site/API-79cab7cef19a4d5d93e4ed4a6772626a?pvs=4
 
 
-[Link para a Wiki](https://github.com/juliaRobertav/FASTAPI.wiki.git)
+[Link para a Wiki](https://github.com/juliaRobertav/FASTAPI/wiki)
