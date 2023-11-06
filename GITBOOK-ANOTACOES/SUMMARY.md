@@ -6,4 +6,4 @@
 * [APIs](apis.md)
 * [Rotas/Endpoints](rotas-endpoints.md)
 * [Revisão](revisao.md)
-* [Fastapi && SQL](fastapi-and-and-sql.md)
+* [Fastapi & SQL](fastapi-and-sql.md)
