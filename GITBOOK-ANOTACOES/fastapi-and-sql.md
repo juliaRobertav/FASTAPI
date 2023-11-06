@@ -1,4 +1,4 @@
-# Fastapi && SQL
+# Fastapi & SQL
 
 {% embed url="https://docs.sqlalchemy.org/en/14/dialects/mysql.html#asyncmy" %}
 
@@ -19,5 +19,6 @@ Install ->
 ```
 pip install fastapi psycopg2-binary sqlalchemy asyncpg uvicorn
 pip install pydantic-settings
+pip install asyncmy
 ```
 
