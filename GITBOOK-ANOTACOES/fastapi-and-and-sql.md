@@ -4,6 +4,8 @@
 
 {% embed url="https://github.com/dunossauro/fastapi-do-zero" %}
 
+{% embed url="https://fastapi.tiangolo.com/tutorial/sql-databases/" %}
+
 ```
 core = núcleo do projeto
 
