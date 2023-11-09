@@ -11,3 +11,7 @@
 ## Aulas
 
 * [Aula 1](aulas/aula-1.md)
+
+***
+
+* [MONGODB & FASTAPI](mongodb-and-fastapi.md)
