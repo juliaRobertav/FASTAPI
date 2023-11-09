@@ -7,3 +7,7 @@
 * [Rotas/Endpoints](rotas-endpoints.md)
 * [Revisão](revisao.md)
 * [Fastapi & SQL](fastapi-and-sql.md)
+
+## Aulas
+
+* [Aula 1](aulas/aula-1.md)
