@@ -12,7 +12,7 @@ Study:
 
 {% embed url="https://testdriven.io/blog/fastapi-mongo/" %}
 
-
+{% embed url="https://medium.com/code-prestige/trabalhando-com-o-mongodb-diretamente-do-vs-code-3ea7bd11e81b" %}
 
 Download:
 
