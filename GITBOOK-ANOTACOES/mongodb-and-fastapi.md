@@ -22,6 +22,8 @@ Study:
 
 {% embed url="https://hub.docker.com/repository/docker/juliarobertav/mongofast/general" %}
 
+{% embed url="https://youtu.be/jLiSj_ZsdXc?si=UML9xpo4gMxWCkG9" %}
+
 Download:
 
 {% embed url="https://www.youtube.com/watch?v=l4HeaNRi8f8" %}
