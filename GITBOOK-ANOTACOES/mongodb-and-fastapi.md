@@ -16,6 +16,12 @@ Study:
 
 {% embed url="https://medium.com/code-prestige/trabalhando-com-o-mongodb-diretamente-do-vs-code-3ea7bd11e81b" %}
 
+{% embed url="https://learn.microsoft.com/pt-br/azure/developer/javascript/how-to/with-visual-studio-code/install-run-debug-nodejs" %}
+
+{% embed url="https://cloud.mongodb.com/v2/654ce22ff0188b0ef8af3b5f#/setup/access" %}
+
+{% embed url="https://hub.docker.com/repository/docker/juliarobertav/mongofast/general" %}
+
 Download:
 
 {% embed url="https://www.youtube.com/watch?v=l4HeaNRi8f8" %}
