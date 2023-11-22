@@ -31,3 +31,13 @@ Study:
 Download:
 
 {% embed url="https://www.youtube.com/watch?v=l4HeaNRi8f8" %}
+
+
+
+Erros:
+
+{% embed url="https://answers.microsoft.com/pt-br/windows/forum/all/erro-dns-e-erro-proxy/0b2563d9-ff8d-4862-b053-7b2a76bd2bb4" %}
+
+{% embed url="https://www.hostinger.com.br/tutoriais/servidor-dns-nao-esta-respondendo" %}
+
+{% embed url="https://www.mongodb.com/community/forums/t/the-dns-query-name-does-not-exist/208972/5" %}
