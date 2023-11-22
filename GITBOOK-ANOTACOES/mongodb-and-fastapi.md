@@ -6,9 +6,13 @@ MongoDB Online:
 
 Study:
 
+{% embed url="https://youtu.be/MXwcUrI-iss?si=59s07NdFAhJ4ya7J" %}
+
 {% embed url="https://www.youtube.com/watch?v=NAupoo2_YOQ" %}
 
 {% embed url="https://www.youtube.com/watch?v=4e2VW3Nu-64" %}
+
+{% embed url="https://youtu.be/G7hZlOLhhMY?si=YwB3zAuiXXG8kdig" %}
 
 {% embed url="https://www.mongodb.com/developer/languages/python/python-quickstart-fastapi/" %}
 
