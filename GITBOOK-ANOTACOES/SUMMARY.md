@@ -16,3 +16,4 @@
 
 * [MONGODB & FASTAPI](mongodb-and-fastapi.md)
 * [Conteúdos](conteudos.md)
+* [Dicas/Sites](dicas-sites.md)
