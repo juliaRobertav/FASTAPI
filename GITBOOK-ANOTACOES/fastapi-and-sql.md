@@ -2,6 +2,10 @@
 
 {% embed url="https://docs.sqlalchemy.org/en/14/dialects/mysql.html#asyncmy" %}
 
+{% embed url="https://fastapidozero.dunossauro.com/" %}
+
+{% embed url="https://kinsta.com/pt/blog/fastapi/" %}
+
 {% embed url="https://github.com/dunossauro/fastapi-do-zero" %}
 
 {% embed url="https://fastapi.tiangolo.com/tutorial/sql-databases/" %}
