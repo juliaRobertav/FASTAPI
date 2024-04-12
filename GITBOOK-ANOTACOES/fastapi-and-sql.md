@@ -8,6 +8,8 @@
 
 {% embed url="https://github.com/dunossauro/fastapi-do-zero" %}
 
+{% embed url="https://www.linode.com/pt-br/content/quickly-authenticate-users-with-fastapi-and-token-authentication/" %}
+
 {% embed url="https://fastapi.tiangolo.com/tutorial/sql-databases/" %}
 
 ```
